@@ -1,0 +1,5 @@
+Độ phức tạp của Merge Sort:
+- Gọi N là số phần tử trong mảng cần được sort.
+- Vì Merge Sort sẽ chia đôi số phần tử trong mảng để sắp xếp sau mỗi lần nên số lần chia đôi đến khi chỉ còn 1 phần tử là log2(N).
+- Với mỗi lần chia đôi, chúng ta đều phải duyệt hết lại các phần tử trong mảng để sắp xếp và hợp lại. Chính vì thế nên tổng cộng chúng ta sẽ phải duyệt hết N phần tử.
+Vậy độ phức tạp của thuật toán Merge Sort là N*log2(N) trong mọi trường hợp.
