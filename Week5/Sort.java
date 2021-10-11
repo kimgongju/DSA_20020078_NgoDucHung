@@ -4,6 +4,8 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class Sort {
     public static void main(String[] args) {
+        long start = System.currentTimeMillis();
+
         int n = ThreadLocalRandom.current().nextInt(1, 20);
         int[] array = new int[n];
 
@@ -17,6 +19,9 @@ public class Sort {
         for (int i = 0; i < n; ++i) {
             System.out.print(array[i] + " ");
         }
+
+        long end = System.currentTimeMillis();
+        System.out.println("\n" + (end - start));
     }
 
     public void sort(int array[], int left, int right) {
