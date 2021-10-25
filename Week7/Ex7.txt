@@ -1,0 +1,3 @@
+Time complexity:
+- Best case: O(1) vì nếu lần đầu pick được trúng midden.
+- Worst case: O(N^2) vì nếu luôn pick được số nhỏ nhất và số lớn nhất.
