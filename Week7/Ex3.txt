@@ -1,0 +1,1 @@
+Có vì nó không ảnh hưởng tới độ phức tạp của cả 2 thuật toán sắp xếp.
