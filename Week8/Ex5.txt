@@ -1,0 +1,10 @@
+Bài toán này sẽ có độ phức tạp là N*logN với chứng minh như sau: (logN sẽ mặc định là log2(N))
+
+Với mỗi lần lặp i trong vòng for, thao tác tìm median sẽ có độ phức tạp là O(1) và thao tác add phần tử vào priority queue sẽ có độ phức tạp là O(logN).
+Vì vậy, nên tổng độ phức tạp sẽ là:
+O(Notation) = (1 + log(1)) + (1 + log(2)) + ... + (1 + log(N))
+	    = (1 + 1 + ... + 1) + (log(1) + log(2) + ... + log(N))
+	    = N + (log(1) + log(2) + ... + log(N))
+	    < N + (log(N) + log(N) + ... + log(N))
+	    = N + N*log(N)
+	    ~ N*log(N) (đpcm)
