@@ -1,0 +1,3 @@
+- Cách 1: đpt O(M) vì dùng hash table để lưu số lượng các phần tử nên khi cần chỉ cần truy cập vào ô đó.
+- Cách 2: đpt O(M) vì dùng 2 con trỏ chạy song song nên đpt tuyến tính.
+- Cách 3: đpt O(M) giống cách 1.
