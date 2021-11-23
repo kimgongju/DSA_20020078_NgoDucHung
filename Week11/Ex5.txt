@@ -1,3 +1,5 @@
-- Cách 1: đpt O(M) vì dùng hash table để lưu số lượng các phần tử nên khi cần chỉ cần truy cập vào ô đó.
-- Cách 2: đpt O(M) vì dùng 2 con trỏ chạy song song nên đpt tuyến tính.
-- Cách 3: đpt O(M) giống cách 1.
+- Cách 1: Dùng hash table để lưu số lượng các phần tử nên khi cần chỉ cần truy cập vào ô đó. Vì thế nên đpt khi duyệt là O(M+N) nhưng sẽ cần sort lại mảng đáp án, trong trường hợp xấu nhất là O(M*logM).
+
+- Cách 2: Bước đầu tiên sort lại 2 mảng sẽ mất độ phức tạp O(N*logN+M*logM), vì thao tác duyệt phía sau sử dụng 2 con trỏ chạy song song nên chỉ mất đpt O(M+N). Vì vậy đpt bài toán trong trường hợp xấu nhất là O(M*logM).
+
+- Cách 3: Giống cách 1.
